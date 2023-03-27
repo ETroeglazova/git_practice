@@ -1,0 +1,15 @@
+#all that will appear in build directory and all build directories
+#all files witj name 'build' shouldn't be ignored
+**/build/*
+
+#all jar-files except module2.jar
+*.jar
+!module2.jar
+
+#local configurations
+application-local.properties
+
+#idea directories and files
+.idea
+.idea_copy/*
+!.idea_copy/workspace.xml
